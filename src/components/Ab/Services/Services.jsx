@@ -1,10 +1,10 @@
 import React from "react";
-import home2 from "../../img/home2.png";
-import clock from "../../img/clock.svg";
-import diaph from "../../img/diaphragm.svg";
-import money from "../../img/money.svg";
-import tw from "../../img/teamwork.svg";
-import { Ab, Desc, Img } from "../Style/style_compo";
+import home2 from "../../../img/home2.png";
+import clock from "../../../img/clock.svg";
+import diaph from "../../../img/diaphragm.svg";
+import money from "../../../img/money.svg";
+import tw from "../../../img/teamwork.svg";
+import { Ab, Desc, Img } from "../../Style/style_compo";
 import styled from "styled-components";
 const Services = () => {
   return (

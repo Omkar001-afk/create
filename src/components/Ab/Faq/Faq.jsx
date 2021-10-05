@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Ab } from "../Style/style_compo";
+import { Ab } from "../../Style/style_compo";
 const Faq = () => {
   return (
     <FAQ>

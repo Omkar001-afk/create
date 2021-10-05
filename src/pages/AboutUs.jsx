@@ -1,7 +1,7 @@
 import React from "react";
-import About from "../components/About/About";
-import Faq from "../components/Faq/Faq";
-import Services from "../components/Services/Services";
+import About from "../components/Ab/Ab/About";
+import Faq from "../components/Ab/Faq/Faq";
+import Services from "../components/Ab/Services/Services";
 
 const AboutUs = () => {
   return (

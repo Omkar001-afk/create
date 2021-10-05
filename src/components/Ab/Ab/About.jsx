@@ -1,6 +1,6 @@
 import React from "react";
-import home1 from "../../img/home1.png";
-import { Ab, Desc, Hide, Img } from "../Style/style_compo";
+import home1 from "../../../img/home1.png";
+import { Ab, Desc, Hide, Img } from "../../Style/style_compo";
 
 const About = () => {
   return (
