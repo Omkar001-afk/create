@@ -4,35 +4,50 @@ import theracer from "../img/theracer-small.png";
 import goodtimes from "../img/goodtimes-small.png";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+//animations
+import { motion } from "framer-motion";
+import { fade, imageAnim, lineAni, PageAnim } from "../components/Animate/Anim";
 
 const OurWork = () => {
   return (
-    <Work>
+    <Work
+      variants={PageAnim}
+      initial="hidden"
+      animate="show"
+      exit="exit"
+      style={{ background: "#fff" }}
+    >
       <Movie>
-        <h2>The Athlete</h2>
-        <div className="line"></div>
+        <motion.h2 variants={fade}>The Athlete</motion.h2>
+        <motion.div variants={lineAni} className="line"></motion.div>
         <Link to="/work/the-athlete">
-          <img src={athlete} alt="athlete" />
+          <Hide>
+            <motion.img variants={imageAnim} src={athlete} alt="athlete" />
+          </Hide>
         </Link>
       </Movie>
       <Movie>
-        <h2>The Racer</h2>
-        <div className="line"></div>
+        <motion.h2 variants={fade}>The Racer</motion.h2>
+        <motion.div variants={lineAni} className="line"></motion.div>
         <Link to="/work/the-racer">
-          <img src={theracer} alt="theracer" />
+          <Hide>
+            <motion.img variants={imageAnim} src={theracer} alt="theracer" />
+          </Hide>
         </Link>
       </Movie>
       <Movie>
-        <h2>Good times</h2>
-        <div className="line"></div>
+        <motion.h2 variants={fade}>Good times</motion.h2>
+        <motion.div variants={lineAni} className="line"></motion.div>
         <Link to="/work/good-times">
-          <img src={goodtimes} alt="goodtimes" />
+          <Hide>
+            <motion.img variants={imageAnim} src={goodtimes} alt="goodtimes" />
+          </Hide>
         </Link>
       </Movie>
     </Work>
   );
 };
-const Work = styled.div`
+const Work = styled(motion.div)`
   min-height: 100vh;
   overflow: hidden;
   padding: 5rem 10rem;
@@ -44,13 +59,17 @@ const Movie = styled.div`
   padding-bottom: 10rem;
   .line {
     height: 0.5rem;
-    background: #cccccc;
+    background: #23d997;
     margin-bottom: 3rem;
-    .img {
-      width: 100%;
-      height: 70vh;
-      object-fit: cover;
-    }
   }
+  img {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+  }
+`;
+
+const Hide = styled.div`
+  overflow: hidden;
 `;
 export default OurWork;
