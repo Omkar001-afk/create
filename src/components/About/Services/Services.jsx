@@ -65,6 +65,9 @@ const Service = styled(Ab)`
 const Cards = styled.div`
   display: flex;
   flex-wrap: wrap;
+  @media (max-width: 1500px) {
+    justify-content: center;
+  }
 `;
 const Card = styled.div`
   flex-basis: 20rem;
