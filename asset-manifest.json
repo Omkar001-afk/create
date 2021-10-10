@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.js": "/portfolio-demo/static/js/main.5c5cbc65.chunk.js",
+    "main.js.map": "/portfolio-demo/static/js/main.5c5cbc65.chunk.js.map",
+    "runtime-main.js": "/portfolio-demo/static/js/runtime-main.44dcd3b2.js",
+    "runtime-main.js.map": "/portfolio-demo/static/js/runtime-main.44dcd3b2.js.map",
+    "static/js/2.43ed5aed.chunk.js": "/portfolio-demo/static/js/2.43ed5aed.chunk.js",
+    "static/js/2.43ed5aed.chunk.js.map": "/portfolio-demo/static/js/2.43ed5aed.chunk.js.map",
+    "static/js/3.01556fd4.chunk.js": "/portfolio-demo/static/js/3.01556fd4.chunk.js",
+    "static/js/3.01556fd4.chunk.js.map": "/portfolio-demo/static/js/3.01556fd4.chunk.js.map",
+    "index.html": "/portfolio-demo/index.html",
+    "static/js/2.43ed5aed.chunk.js.LICENSE.txt": "/portfolio-demo/static/js/2.43ed5aed.chunk.js.LICENSE.txt",
+    "static/media/athlete-small.9c7a85d4.png": "/portfolio-demo/static/media/athlete-small.9c7a85d4.png",
+    "static/media/athlete2.b216a5ad.png": "/portfolio-demo/static/media/athlete2.b216a5ad.png",
+    "static/media/clock.4b7cde7e.svg": "/portfolio-demo/static/media/clock.4b7cde7e.svg",
+    "static/media/diaphragm.db801491.svg": "/portfolio-demo/static/media/diaphragm.db801491.svg",
+    "static/media/good-times2.4ea1be17.jpg": "/portfolio-demo/static/media/good-times2.4ea1be17.jpg",
+    "static/media/goodtimes-small.94ab060d.png": "/portfolio-demo/static/media/goodtimes-small.94ab060d.png",
+    "static/media/home1.9836de69.png": "/portfolio-demo/static/media/home1.9836de69.png",
+    "static/media/home2.a65a4256.png": "/portfolio-demo/static/media/home2.a65a4256.png",
+    "static/media/money.72da7c48.svg": "/portfolio-demo/static/media/money.72da7c48.svg",
+    "static/media/teamwork.aa71db2e.svg": "/portfolio-demo/static/media/teamwork.aa71db2e.svg",
+    "static/media/the-racer2.580f15cd.jpg": "/portfolio-demo/static/media/the-racer2.580f15cd.jpg",
+    "static/media/theracer-small.51874213.png": "/portfolio-demo/static/media/theracer-small.51874213.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.44dcd3b2.js",
+    "static/js/2.43ed5aed.chunk.js",
+    "static/js/main.5c5cbc65.chunk.js"
+  ]
+}
