@@ -6,9 +6,12 @@ import money from "../../../img/money.svg";
 import tw from "../../../img/teamwork.svg";
 import { Ab, Desc, Img } from "../../Style/style_compo";
 import styled from "styled-components";
+import { fade } from "../../Animate/Anim";
+import { useScroll } from "../../Animate/scroll/scroll";
 const Services = () => {
+  const [element, controls] = useScroll();
   return (
-    <Service>
+    <Service variants={fade} animate={controls} initials="hidden" ref={element}>
       <Desc>
         <h2>
           High <span>quality</span> services.

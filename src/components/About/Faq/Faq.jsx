@@ -3,9 +3,12 @@ import React from "react";
 import styled from "styled-components";
 import { Ab } from "../../Style/style_compo";
 import Toggle from "../../Toggle/Toggle";
+import { scrollAni } from "../../Animate/Anim";
+import { useScroll } from "../../Animate/scroll/scroll";
 const Faq = () => {
+  const [element, controls] = useScroll();
   return (
-    <FAQ>
+    <FAQ variants={scrollAni} animate={controls} initial="hidden" ref={element}>
       <h2>
         Any questions?<span>FAQ</span>
       </h2>

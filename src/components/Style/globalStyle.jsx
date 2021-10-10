@@ -8,6 +8,7 @@ const GlobalStyle = createGlobalStyle`
 body{
     background: #1b1b1b;
     font-family: 'Raleway',sans-serif;
+    overflow-x: hidden;
 }
 button{
    font-weight: bold;
